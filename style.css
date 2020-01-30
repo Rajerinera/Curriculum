@@ -179,7 +179,7 @@ aside
 
     .element1,.element2
     {
-      width: 100%;
+      width: calc(100% - 24px);
       margin: 0%;
     
     }
