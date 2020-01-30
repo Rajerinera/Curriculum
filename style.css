@@ -40,9 +40,10 @@ h1
 
 .propos
 {
-    font-size: 20px;
+    font-size: 1.3em;
     color: #212121;
     text-decoration: underline;
+    font-weight: bold ;
 
 }
 
@@ -85,7 +86,7 @@ img.photo
     justify-content: center;
     align-items: center;
     margin: 100px;
-    margin-top: 20px;
+    margin-top: 0%;
     margin-bottom: 20px;    
 }
 
