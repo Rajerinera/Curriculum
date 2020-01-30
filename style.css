@@ -1,0 +1,189 @@
+p
+{
+color:  #2196F3;
+}
+
+
+.taf
+{
+    color: #212121;
+}
+
+*
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: justify;
+   
+    
+}
+
+
+.Nom1
+{
+    font-size: 3em;
+    text-decoration: none;
+    
+}
+
+.Nom2
+{
+     font-size: 2em
+}
+
+h1
+{
+    font-size: 1.3em;
+    text-decoration: underline
+    
+}
+
+.propos
+{
+    font-size: 20px;
+    color: #212121;
+    text-decoration: underline;
+
+}
+
+#conteneur
+{
+    display:flex;
+    justify-content: space-around;
+    margin-top: -0.6%;
+    margin-bottom: -0.5%;    
+}
+
+.element1 
+{
+    Border: 0.1px #212121 solid;
+    width: 40%;
+    padding: 12px;
+    text-align: justify;
+
+    background-color: #ffd700;
+    margin-left: 100px;
+}
+
+.element2 
+{
+    Border: 0.1px #212121 solid;
+    width: 60%;
+    padding: 12px;
+    background-image: url("fond-site.jpg");
+    margin-right: 100px;
+    
+}
+
+img.photo
+{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+#presentation
+{
+    text-align: justify-all;
+    color: #212121;
+    font-style: italic;
+    padding-bottom: 16%;
+}
+
+
+address
+{
+ font-size: large;
+ font-weight: bold;
+ color:#212121;
+}
+
+.info
+{
+    font-size: large;
+    color: #212121;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#global
+{
+    display: flex;
+
+}
+
+aside p
+{
+     color:#212121;
+}
+
+aside
+{
+    margin-top: 105px;
+}
+
+#sport
+{
+    display:flex;
+    justify-content: space-between;
+    
+     
+}
+
+.basketball
+{
+    width: 52Px;
+    height: 52px;
+}
+
+.football
+ {
+     width:52px;
+     height: 52px;
+
+ }
+
+ .musculation
+ {
+     width:52px;
+     height:52px;
+ }
+
+
+@media all and (max-width: 991px)
+{
+
+    p
+    {
+      color:#f44336;
+      background-color: #E0E0E0;
+      font-size:1.3em;
+    }
+
+    #conteneur
+    {
+      flex-direction: column;
+      padding-right: calc(100%-24px);    
+    }
+
+
+
+
+    .element1,.element2
+    {
+      width: 100%;
+      margin: 0%;
+    
+    }
+
+     
+
+
+}
